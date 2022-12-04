@@ -1,7 +1,7 @@
-use std::collections::btree_set::Intersection;
 use std::fs;
 use std::collections::HashSet;
 
+#[allow(dead_code)]
 pub fn day3(){
     let result_example: u32 = calc_part1("examples/day3.txt");
     assert_eq!(result_example, 157);
@@ -12,7 +12,7 @@ pub fn day3(){
 
     let result_example2 = calc_part2("examples/day3.txt");
     assert_eq!(result_example2, 70);
-    println!("Pass Example2");
+    println!("Pass Example 2");
 
     let result2 = calc_part2("inputs/day3.txt");
     println!("{}", result2);
